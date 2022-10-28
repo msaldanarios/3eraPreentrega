@@ -1,0 +1,17 @@
+{
+  "name": "entrega3",
+  "version": "1.0.0",
+  "description": "��#\u0000 \u0000S\u0000e\u0000g\u0000u\u0000n\u0000d\u0000a\u0000E\u0000n\u0000t\u0000r\u0000e\u0000g\u0000a\u0000\r\u0000 \u0000",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build-css": "node-sass --include-path scss scss/estilos.scss css/estilos.css",
+    "watch-css": "nodemon -e scss -x \"npm run build-css\""
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "node-sass": "^7.0.3",
+    "nodemon": "^2.0.20"
+  }
+}
